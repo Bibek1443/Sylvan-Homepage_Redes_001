@@ -1,0 +1,284 @@
+@media (max-width: 1200px) {
+
+  .memories-logo img{
+    height:120px ;
+    width: 160px;
+
+  }
+}
+
+@media (max-width: 1010px) {
+  .mid_header{
+    flex-direction: column;
+    padding: 20px;
+  
+  }
+}
+
+@media (max-width: 995px) {
+input{
+  width: 100%;
+}
+
+.mid_header{
+}
+
+}
+
+
+@media (max-width: 835px) {
+nav ul li{
+ font-size: 13px;
+ flex-direction: row;
+ column-gap: 3px;
+}
+ 
+
+form button{
+ display: block;
+ margin: 15px;
+ border: none;
+}
+
+input{
+ display: none;
+}
+}
+
+
+
+@media (max-width: 768px) {
+.hero-content{
+  width: 100%;
+}
+
+
+}
+
+
+@media (max-width: 770px) {
+
+  .top-header nav{
+    display: none;
+  }
+
+
+  .mid_header{
+flex-direction: row;  }
+
+
+  .phone-group,.question-group{
+    display: none;
+  }
+
+  .contact-details .hamburger-menu{
+display: block; 
+ }
+
+ .user-group{
+  display: none;
+ }
+
+ .bottom_header{
+  display: none;
+ } 
+
+ .hero-content-inner{
+  padding: 30px;
+
+ }
+.hero-content-inner .content{
+  top: 10px;
+  left: 7px;
+  }
+
+.hero-content-inner h1{
+  font-size:25px;
+  height: auto;
+  
+  }
+  .hero-content-inner p{
+    font-size: 14px;
+  }
+
+  input{
+    display: none;
+  }
+
+
+ 
+}
+
+
+
+@media (max-width: 640px) {
+  .top-header {
+    flex-direction: column;
+    align-items: self-start;
+    height: 100%;
+    gap: 15px;
+    padding: 20px;
+
+  }
+
+  .logo{}
+
+
+  nav ul {
+    flex-direction: column;
+  }
+
+  nav ul li {
+    margin: 10px 0;
+  }
+
+  .mid_header{
+    padding: 20px;
+    gap: 10px;
+  }
+
+  .memories-logo img{
+    padding-left: 20px;
+    height:100px ;
+    width: 150px;
+  }
+
+
+ .bottom_header{
+ }
+
+ .category-btn{
+   height:30px ;
+   width: 130px;
+   gap: 7px;
+
+ }
+
+.bottom_header .category-btn h4{
+  font-size: 10px;
+}
+
+.bottom_header span{
+  display:block;
+  padding: 8px;
+}
+
+ .bottom_header nav ul, form{
+   gap: 2px;
+   display: none;
+ }
+
+.hero-image{
+margin: 20px;}
+
+.hero-content-inner{
+  position: absolute;
+  top: 10px;
+    left: 7px;
+    
+  
+  
+}
+
+
+
+
+ .feature_section .card-container .card img{
+   height: 20px;
+   width: 20px;
+ }
+
+
+ .feature_section .card-container .card{
+   height: 80px;
+   width: 80px;
+ }
+
+ .feature_section .card-container .card h5{
+   font-size: 8px;
+ }
+
+}
+
+
+@media (max-width: 548px) {
+
+  .container{
+    position: relative;
+    text-align: start;
+    width:100%;
+   
+  }
+
+  .hero-image{
+  }
+  
+  .hero-content-inner{
+    position: absolute;
+    top: 10px;
+    left: 7px;
+    
+  }
+
+  .hero-content-inner  h1{
+    width: auto;
+    font-size: 20px;
+
+  }
+
+  .hero-content-inner p{
+    width: auto;
+    font-size: 12px;
+
+  }
+}
+
+
+
+
+
+/* mobile */
+@media (max-width: 475px) {
+  .top-header{
+    width: 100%;
+
+  }
+
+.top-header img{
+  height: 10px;
+  width: 10px;
+
+}
+
+.top-header h4{
+font-size: 10px;
+}
+
+.top-header nav ul {
+  display: none;
+}
+
+
+.memories-logo img{
+  height: 70px;
+  width: 120px;
+}
+
+.cart-link ul li img{
+  height: 28px;
+  width: 28px;
+  
+}
+
+.hero-content-inner h5{
+  font-size: 10px;
+}
+.hero-content-inner h1{
+  font-size: 20px;
+}
+
+.hero-content-inner p{
+  font-size: 12px;
+}
+
+}
